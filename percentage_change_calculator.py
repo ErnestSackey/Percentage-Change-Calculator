@@ -1,13 +1,13 @@
 def percentage_change_calculator():
     while True:
         try:
-            original_number = int(input('What is the original number:')) #take the original number from user
+            original_number = float(input('What is the original number:')) #take the original number from user
             break
         except:
             print("That's not a valid number!") #handling non numeric numbers
     while True:
         try:
-            new_number = int(input('What is the new number:')) #take the new number from user
+            new_number = float(input('What is the new number:')) #take the new number from user
             break
         except:
             print("That's not a valid number!")
